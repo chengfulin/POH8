@@ -6,7 +6,7 @@ rl.on("line", function (line) {
 	inputs.push(line.trim());
 }).on("close", function () {
 	start();
-})
+});
 
 var indexOfInputs = {
 	"chcekingNumber": 0
